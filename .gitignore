@@ -1,0 +1,73 @@
+# .gitignore for Movie Recommendation System
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Dataset files (large files)
+tmdb_5000_movies.csv
+tmdb_5000_credits.csv
+
+# Pickle files (generated, large files)
+*.pkl
+movies.pkl
+similarity.pkl
+vectorizer.pkl
+
+# TMDB API Key
+.env
+config.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# Screenshots
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# System files
+Thumbs.db
+.DS_Store
